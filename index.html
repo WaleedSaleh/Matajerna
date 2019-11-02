@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="col-md-12">
+            <div class="top-header">
+
+                <nav class="navbar-nav navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand ml-auto" href="#">
+                        <img src="../static/Icons/Header/matajerna-logo.svg" alt="متاجرنا">متاجرنا
+                    </a>
+                    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><img src="../static/Icons/Header/matajerna-logo.svg" alt="متاجرنا">متاجرنا</span>
+                </button>
+                    <ul>
+                        <li class="nav-item list-unstyled">
+                            <div class="search-box input-group mb-3 col-11">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><img src="../static/Icons/Header/search.svg"
+                                                                alt="إبحث في متاجرنا"></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="إبحث في متاجرنا" aria-label="إبحث في متاجرنا">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="btn btn-light btn-radius shadow-sm btn-cl">
+                                    <img class="btn-icon" src="../static/Icons/Header/shop.svg" alt="متاجر"> متاجر
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="btn btn-light btn-radius shadow-sm btn-cl">
+                                    <img class="btn-icon" src="../static/Icons/Header/matajerna-logo.svg" alt="اشتري"> اشتري
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="btn btn-orange btn-radius btn-add-ad">
+                                    <img class="btn-icon" src="../static/Icons/Header/photo-camera.svg" alt=" أضف إعلانك مجانا"> أضف إعلانك مجانا
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="avatar">
+                                    <img src="../static/Icons/Header/img_avatar.png" alt="Matajerna User">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="chat-box">
+                                    <span class="badge badge-danger">1</span>
+                                    <img src="../static/Icons/Header/chat.svg" alt="المحادثات">
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="notification-box">
+                                    <span class="badge badge-danger">1</span>
+                                    <img src="../static/Icons/Header/notification.svg" alt="التنبيهات">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+            <div class="main-banner border mt-2 row">
+                <img src="../static/Icons/AdBanners/header-banner1.png">
+            </div>
+            <div class="banner mt-4 mb-4">
+                <img src="../static/Icons/AdBanners/header-ad-banner.png">
+            </div>
+            <nav class="navbar navbar-expand row">
+                <ul class="navbar-nav navbar-icons ml-auto col-sm-4 sol-xs-2 ">
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-donation">
+                                <img class="circle-icon" src="../static/Icons/Categories/donations-icon.svg" alt="تبرعات">
+                            </div>
+                            <h5>تبرعات</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-food">
+                                <img class="circle-icon" src="../static/Icons/Categories/food-icon.svg" alt="طعام">
+                            </div>
+                            <h5>طعام</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-books">
+                                <img class="circle-icon" src="../static/Icons/Categories/books-icon.svg" alt="كتب و ترفيه">
+                            </div>
+                            <h5>كتب و ترفيه</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-table">
+                                <img class="circle-icon" src="../static/Icons/Categories/table-icon.svg" alt="تجارة و صناعة">
+                            </div>
+                            <h5>تجارة و صناعة</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-business">
+                                <img class="circle-icon" src="../static/Icons/Categories/business-icon.svg" alt="وظائف">
+                            </div>
+                            <h5>وظائف</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-services">
+                                <img class="circle-icon" src="../static/Icons/Categories/services-icon.svg" alt="خدمات">
+                            </div>
+                            <h5>خدمات</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-animals">
+                                <img class="circle-icon" src="../static/Icons/Categories/animals.svg" alt="حيوانات">
+                            </div>
+                            <h5>حيوانات</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-kids">
+                                <img class="circle-icon" src="../static/Icons/Categories/kids.svg" alt="اطفال">
+                            </div>
+                            <h5>اطفال</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-sport">
+                                <img class="circle-icon" src="../static/Icons/Categories/soprts-equipment.svg" alt="لوازم رياضة">
+                            </div>
+                            <h5>لوازم رياضة</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-furniture">
+                                <img class="circle-icon" src="../static/Icons/Categories/furniture-icon.svg" alt="اثاث منزل">
+                            </div>
+                            <h5>اثاث منزل</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-electronics">
+                                <img class="circle-icon" src="../static/Icons/Categories/electronics-and-home-devices-icon.svg" alt="الكترونيات و اجهزة المنزل">
+                            </div>
+                            <h5>الكترونيات و اجهزة المنزل</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-mobile">
+                                <img class="circle-icon" src="../static/Icons/Categories/mobiles-and-tablet.svg" alt="موبايلات و اجهزة تابلت">
+                            </div>
+                            <h5>موبايلات و اجهزة تابلت</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-clothes">
+                                <img class="circle-icon" src="../static/Icons/Categories/clothes-and-accessories-icon.svg" alt="ملابس و اكسسوارات">
+                            </div>
+                            <h5>ملابس و اكسسوارات</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-games">
+                                <img class="circle-icon" src="../static/Icons/Categories/games-and-videos-icons.svg" alt="ألعاب و أجهزة فيديو">
+                            </div>
+                            <h5>ألعاب و أجهزة فيديو</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-cars">
+                                <img class="circle-icon" src="../static/Icons/Categories/cars-and-vehicles-icon.svg" alt="سيارات و مركبات">
+                            </div>
+                            <h5>سيارات و مركبات</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <div class="icon-box-assets">
+                                <img class="circle-icon" src="../static/Icons/Categories/assets-icon.svg" alt="عقارات">
+                            </div>
+                            <h5>عقارات</h5>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="body-content col-md-12">
+            <div class="filters mt-4 mb-0">
+                <ul class="navbar navbar-expand">
+                    <li class="nav-item list-unstyled col-md-4">
+                        <div class="filter-box input-group mb-3 col-11">
+                            <input type="text" class="form-control" placeholder="المنطقة" aria-label="اختر مدينةا">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><img src="../static/Icons/More/down-arrow.svg"
+                                                                alt="اختر مدينةا"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item list-unstyled col-md-4">
+                        <div class="filter-box input-group mb-3 col-11">
+                            <input type="text" class="form-control" placeholder="ترتيب حسب" aria-label="ترتيب حسبا">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><img src="../static/Icons/More/down-arrow.svg"
+                                                                alt="ترتيب حسبا"></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-content row">
+                <div class="left-content col-lg-1 col-md-2 d-lg-block d-md-block d-sm-none col-4 mt-4 mb-4">
+                    <img src="../static/Icons/AdBanners/right-ad-banner.png" alt="right-ad-banner" class="align-content-center right-banner m-auto" width="107" height="305">
+                </div>
+                <div class="right-content col-lg-11 col-md-10 col-sm-12 col-8 mt-4 mb-4">
+                    <div class="row">
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images-message">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <input class="form-control   border-0 d-inline message-area" placeholder="ارسل رسالة">
+                                    </div>
+                                    <div class="test-images-side-image">
+                                        <img src="../static/Icons/Header/matajerna-logo.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images-favorit">
+                                        <img src="../static/Icons/More/heart.svg" class="heart">
+                                        <span>تم إضافة هذا الأعلان الى المفضلة</span>
+                                        <span class="">|</span>
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                    <div class="test-images-side-image-regular">
+                                        <img src="../static/Icons/Header/matajerna-logo.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <img class="card-img-top" src="../static/Icons/AdBanners/ad-item2.png" height="268" alt="Item 1">
+
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-card-box col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card" dir="ltr">
+                                <div class="image-bg">
+                                    <div class="test-images">
+                                        <img src="../static/Icons/More/regular-heart.svg">
+                                        <img src="../static/Icons/More/message-circle.svg">
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled d-inline">
+                                        <li class="ar-currency text-muted w-100">
+                                            <span class="">د.أ</span>
+                                        </li>
+                                        <li class="price text-muted w-100">
+                                            <span class="font-weight-bolder">13,000</span>
+                                        </li>
+                                        <li class="time text-muted ">
+                                            <span class="pr-1 pl-2">عمان</span><img src="../static/Icons/More/map-pin.svg">
+                                        </li>
+                                        <li class="time text-muted w-100">
+                                            <span class="pr-2">|</span> قبل 5 دقائق <img src="../static/Icons/More/clock.svg">
+                                        </li>
+                                    </ul>
+                                    <div class="item-content mt-2">
+                                        <p>
+                                            عمارة إستثمارية مميزة بالقرب من الجامعة الأردنية
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-pagination">
+                        <nav aria-label="...">
+                            <ul class="pagination pagination-sm">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">3</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item active text-white"><a class="page-link" href="#">1</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 mobile-holder">
+                            <img src="../static/Icons/AdBanners/phone-icon.png" width="200" height="200">
+                        </div>
+                        <div class="footer-banner-text-holder col-md-3 text-holder pt-3" dir="ltr">
+                            <p class="text-white " style="font-size: 30px; word-wrap: normal"> حمل تطبيق متاجرنا على موبايلك </p>
+                        </div>
+                        <div class="col-sm-4 store-holder">
+                            <a href="#"><img src="../static/Icons/AdBanners/DownloadApp/playstore1.png" height="30%" width="45%"></a>
+                            <a href="#"><img src="../static/Icons/AdBanners/DownloadApp/appstore2.png" height="30%" width="45%"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu ">
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-7 m-auto">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <ul class="list-unstyled right-content">
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <h5 class="text-uppercase font-weight-bolder mt-3 mb-3 content-header">
+                                                تاجركم</h5>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">من نحن</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">أعلن من متاجرنا</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">تواصل معنا</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list-unstyled right-content">
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <h5 class="text-uppercase font-weight-bolder mt-3 mb-3 content-header">
+                                                تاجركم</h5>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">من نحن</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">أعلن من متاجرنا</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">تواصل معنا</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-md-3 ">
+                                <ul class="list-unstyled right-content">
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <h5 class="text-uppercase font-weight-bolder mt-3 mb-3 content-header">
+                                                معلومات</h5>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">سياسات الخصوصية</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">شروط الاستخدام</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+
+                                <ul class="list-unstyled right-content">
+                                    <li>
+                                        <a href="#" class="nav-link">
+                                            <h5 class="text-uppercase font-weight-bolder mt-3 mb-3 content-header">
+                                                مساعدة</h5>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">من نحن</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">أعلن من متاجرنا</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#">تواصل معنا</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social-icon " dir="ltr">
+                <a href="#">
+                    <div class="icon-box">
+                        <img class="circle-icon" src="../static/Icons/Social/facebook-icon.svg" alt="Facebook">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon-box">
+                        <img class="rounded" src="../static/Icons/Social/twitter-icon.svg" alt="Twitter">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon-box">
+                        <img class="circle-icon" src="../static/Icons/Social/instagram-icon.svg" alt="Instagram">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon-box">
+                        <img class="circle-icon" src="../static/Icons/Social/youtube-icon.svg" alt="Youtube">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon-box">
+                        <img class="circle-icon" src="../static/Icons/Social/whatsapp-icon.svg" alt="Whatsapp">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon-box">
+                        <img class="circle-icon" src="../static/Icons/Social/mail-icon.svg" alt="Mail">
+                    </div>
+                </a>
+                </ul>
+            </div>
+            <div class="footer-copy-rights  pt-4 ">
+                <p class="text-muted"><span><u class="text-muted">صنع بحب</u></span><span><img
+                    src="../static/Icons/More/heart.svg"></span><span dir="ltr"><u>Atomkit</u></span></p>
+                <p class="text-muted"><u>جميع الحقوق محفوظة © 2019</u></p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../static/js/test.js"></script>
+</body>
+
+</html>
